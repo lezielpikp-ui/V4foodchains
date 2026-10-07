@@ -1,15 +1,26 @@
 import { Organism, FoodChainChallenge, DisruptionScenario, QuizQuestion } from '../types/ecosystem';
 
-export const HERO_IMAGE = '/src/assets/images/hero_ecosystem_foodweb_1791264269846.jpg';
-export const SAVANNA_IMAGE = '/src/assets/images/game_savanna_habitat_1791264285585.jpg';
-export const OCEAN_IMAGE = '/src/assets/images/game_ocean_habitat_1791264296629.jpg';
-export const POND_IMAGE = '/src/assets/images/game_pond_habitat_1791264313983.jpg';
+import heroImage from '../assets/images/hero_ecosystem_foodweb_1791264269846.jpg';
+import savannaImage from '../assets/images/game_savanna_habitat_1791264285585.jpg';
+import oceanImage from '../assets/images/game_ocean_habitat_1791264296629.jpg';
+import pondImage from '../assets/images/game_pond_habitat_1791264313983.jpg';
 
-export const LION_IMAGE = '/src/assets/images/organism_lion_predator_1791272645787.jpg';
-export const ZEBRA_IMAGE = '/src/assets/images/organism_zebra_prey_1791272659115.jpg';
-export const HAWK_IMAGE = '/src/assets/images/organism_hawk_raptor_1791272669634.jpg';
-export const FROG_IMAGE = '/src/assets/images/organism_frog_pond_1791272682109.jpg';
-export const CATERPILLAR_IMAGE = '/src/assets/images/organism_caterpillar_leaf_1791272693589.jpg';
+import lionImage from '../assets/images/organism_lion_predator_1791272645787.jpg';
+import zebraImage from '../assets/images/organism_zebra_prey_1791272659115.jpg';
+import hawkImage from '../assets/images/organism_hawk_raptor_1791272669634.jpg';
+import frogImage from '../assets/images/organism_frog_pond_1791272682109.jpg';
+import caterpillarImage from '../assets/images/organism_caterpillar_leaf_1791272693589.jpg';
+
+export const HERO_IMAGE = heroImage;
+export const SAVANNA_IMAGE = savannaImage;
+export const OCEAN_IMAGE = oceanImage;
+export const POND_IMAGE = pondImage;
+
+export const LION_IMAGE = lionImage;
+export const ZEBRA_IMAGE = zebraImage;
+export const HAWK_IMAGE = hawkImage;
+export const FROG_IMAGE = frogImage;
+export const CATERPILLAR_IMAGE = caterpillarImage;
 
 export const ORGANISMS_DATABASE: Record<string, Organism> = {
   // Producers
