@@ -1,0 +1,6 @@
+{
+  "name": "EcoChains: Food Chains & Ecosystem Games",
+  "description": "An interactive science learning game for primary students exploring how organisms obtain energy, producers and consumers, predator vs prey, constructing food chains, and ecosystem interdependence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
